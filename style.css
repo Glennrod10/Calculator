@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.card{
+    width: 400px;
+
+    -webkit-box-shadow: -1px 1px 17px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 1px 17px 0px rgba(0,0,0,0.75);
+box-shadow: -1px 1px 17px 0px rgba(0,0,0,0.75)
+
+}
+button {
+    height: 60px;
+    font-size: 2rem!important;
+  }
+
+
+/* to remove focus from buttons */
+  .btn-danger,.btn-secondary,.btn-warning ,.btn-success,.form-control:focus {
+    color: none !important;
+    background-color: none !important;
+    border-color: none !important;
+    box-shadow: none !important;
+  }
+.btn-equal,.btn-clear{
+  border-radius: 5px;
+}
+
+/* where all calculations take place */
+  .calculator-screen {
+    height: 150px;
+    font-size: 2rem !important;
+    background-color: black !important;
+    pointer-events: none;
+  }
+
+/* to arrange the buttons */
+.calc-keys{
+
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
+
+}
+
+.dark-mode{
+  font-size: 30px !important;
+  font-weight: 800;
+  height: 30px;
+  cursor: pointer;
+}
+.darkmode{
+  background-color: black ;
+  color: white;
+  
+}
+
